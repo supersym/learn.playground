@@ -101,7 +101,7 @@ e.toString(); // returns "Error"
 - watch
 
 ## Error object (instance)
-`new` __Error__ ( [ *message* [, *fileName* [, *lineNumber* ]]] )
+`new` __Error__ ( [ _message_ [, *fileName* [, *lineNumber* ]]] )
 
 #### Description
 
