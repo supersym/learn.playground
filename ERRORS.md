@@ -102,19 +102,19 @@ e.toString(); // returns "Error"
 
 ## Error object (instance)
 `new` __Error__([*message*[, *fileName*[, *lineNumber*]]])
-Creates an error object.
-Runtime errors result in new Error objects being created and thrown.
 
-#### Parameters
+#### Description
 
-message
-Human-readable description of the error
-fileName
-Non-standard
-The name of the file containing the code that caused the exception
-lineNumber
-Non-standard
-The line number of the code that caused the exception
+Creates an error object. Runtime errors result in new Error objects being
+created and thrown.
+
+### Parameters
+
+- message (inherited from prototypical ancestor)
+- fileName (Non-standard)
+  The name of the file containing the code that caused the exception
+- lineNumber (Non-standard)
+  The line number of the code that caused the exception
 
 Available as prototype in JS/CS and client/server
 
