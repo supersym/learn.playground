@@ -12,8 +12,8 @@ Represents the prototype for the Error constructor.
 #### Description
 All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
 #### Additional information
-[Vendor-specific extensions of this prototype][01]
-[Must read essential information on prototype][02]
++ [Vendor-specific extensions of this prototype][01]
++ [Must read essential information on prototype][02]
 
 #### Properties
 
