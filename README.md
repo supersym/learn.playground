@@ -7,10 +7,13 @@ These are very quick and dirty drafted brain-farts and not really for anyones us
 
 ### Error.prototype
 
-Summary: Represents the prototype for the Error constructor.
-Description: All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
-Detailed: [click here for Vendor-specific extensions of this prototype][01]
-Information: [SHOULD read-up for understanding of the concept of prototypes in JavaScript][02]
+#### Summary
+Represents the prototype for the Error constructor.
+#### Description
+All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
+#### Additional information
+[Vendor-specific extensions of this prototype][01]
+[Must read essential information on prototype][02]
 
 #### Properties
 
