@@ -5,7 +5,7 @@ Code collected while learning CoffeeScript OOP based development and geared
 towards future project appliance and abstractions. These are very quick and
 dirty drafted brain-farts and not really for anyones use I guess...
 
-## Error.prototype
+# Error.prototype
 Represents the prototype for the Error constructor.
 
 > Implemented in: JavaScript 1.?
@@ -22,7 +22,7 @@ constructor.
 + [Vendor-specific extensions of this prototype][01]
 + [Must read essential information on prototype][02]
 
-### Standard Properties
+## Standard Properties
 
 Properties conforming ECMAScript specification are the only ones of interest to
 us for generic usability inside a CoffeeScript abstract type for public usage
@@ -62,7 +62,7 @@ e.name = "ParseError";                // e.toString() would return
 throw e;
 ```
 
-### Standard Methods
+## Standard Methods
 
 #### toString
 
@@ -100,8 +100,8 @@ e.toString(); // returns "Error"
 - valueOf
 - watch
 
-## Error object
-Syntax JS: *new* __Error__([`message`[, `fileName`[, `lineNumber`]]])
+## Error object (instance)
+`new` __Error__([*message*[, *fileName*[, *lineNumber*]]])
 Creates an error object.
 Runtime errors result in new Error objects being created and thrown.
 
